@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlphaCommerce | Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand-block">
+          <div class="brand-mark">A</div>
+          <div>
+            <p class="eyebrow">Marketplace</p>
+            <h1>AlphaCommerce</h1>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a class="nav-link active" href="index.html">Overview</a>
+          <a class="nav-link" href="profile.html">My profile</a>
+          <a class="nav-link" href="vendor-profile.html">Vendor profile</a>
+          <a class="nav-link" href="#">Orders</a>
+          <a class="nav-link" href="#">Inventory</a>
+          <a class="nav-link" href="#">Analytics</a>
+          <a class="nav-link" href="#">Customers</a>
+          <a class="nav-link" href="#">Settings</a>
+        </nav>
+
+        <div class="sidebar-card">
+          <p class="eyebrow">Store health</p>
+          <h3>Strong performance</h3>
+          <div class="progress-track">
+            <span style="width: 82%"></span>
+          </div>
+          <small>82% of weekly goals reached</small>
+        </div>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Good morning</p>
+            <h2>Marketplace dashboard</h2>
+          </div>
+
+          <div class="topbar-actions">
+            <button class="ghost-btn" aria-label="Search">Search</button>
+            <button class="primary-btn">+ New listing</button>
+            <div class="avatar-pill">
+              <img
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80"
+                alt="User avatar"
+              />
+            </div>
+          </div>
+        </header>
+
+        <section class="stats-grid">
+          <article class="stat-card accent-blue">
+            <div class="stat-header">
+              <span>Total revenue</span>
+              <span class="trend up">+12.4%</span>
+            </div>
+            <h3>$84,260</h3>
+            <small>From last 30 days</small>
+          </article>
+
+          <article class="stat-card accent-purple">
+            <div class="stat-header">
+              <span>Orders</span>
+              <span class="trend up">+8.1%</span>
+            </div>
+            <h3>2,314</h3>
+            <small>Shipping on time: 96%</small>
+          </article>
+
+          <article class="stat-card accent-green">
+            <div class="stat-header">
+              <span>New customers</span>
+              <span class="trend up">+5.8%</span>
+            </div>
+            <h3>1,408</h3>
+            <small>Across 43 cities</small>
+          </article>
+
+          <article class="stat-card accent-orange">
+            <div class="stat-header">
+              <span>Conversion</span>
+              <span class="trend down">-1.9%</span>
+            </div>
+            <h3>5.4%</h3>
+            <small>Improving from campaign</small>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel chart-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Performance</p>
+                <h3>Revenue overview</h3>
+              </div>
+              <div class="segmented-control">
+                <button class="seg-btn active">7 days</button>
+                <button class="seg-btn">30 days</button>
+                <button class="seg-btn">90 days</button>
+              </div>
+            </div>
+
+            <div class="chart-area" aria-label="Revenue chart">
+              <div class="grid-lines"></div>
+              <div class="bars">
+                <span style="height: 32%"></span>
+                <span style="height: 46%"></span>
+                <span style="height: 38%"></span>
+                <span style="height: 58%"></span>
+                <span style="height: 64%"></span>
+                <span style="height: 54%"></span>
+                <span style="height: 79%"></span>
+                <span style="height: 68%"></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel task-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Tasks</p>
+                <h3>Action center</h3>
+              </div>
+            </div>
+
+            <ul class="task-list">
+              <li>
+                <div class="task-indicator success"></div>
+                <div>
+                  <strong>Inventory restock</strong>
+                  <small>12 items low in stock</small>
+                </div>
+              </li>
+              <li>
+                <div class="task-indicator warning"></div>
+                <div>
+                  <strong>Refund review</strong>
+                  <small>3 pending customer requests</small>
+                </div>
+              </li>
+              <li>
+                <div class="task-indicator info"></div>
+                <div>
+                  <strong>Marketing campaign</strong>
+                  <small>Launch on Thursday, 10 AM</small>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="bottom-grid">
+          <article class="panel table-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Market</p>
+                <h3>Top products</h3>
+              </div>
+              <a href="#">View all</a>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Category</th>
+                  <th>Sales</th>
+                  <th>Revenue</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="product-cell">
+                      <span class="mini-thumb one"></span>
+                      <div>
+                        <strong>Nova Headphones</strong>
+                        <small>Wireless • Black</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>Audio</td>
+                  <td>842</td>
+                  <td>$24,372</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="product-cell">
+                      <span class="mini-thumb two"></span>
+                      <div>
+                        <strong>Slate Bottle</strong>
+                        <small>Smart hydration</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>Lifestyle</td>
+                  <td>631</td>
+                  <td>$18,764</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="product-cell">
+                      <span class="mini-thumb three"></span>
+                      <div>
+                        <strong>Summit Backpack</strong>
+                        <small>Travel pack</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>Accessories</td>
+                  <td>487</td>
+                  <td>$13,205</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article class="panel feed-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Live</p>
+                <h3>Activity</h3>
+              </div>
+            </div>
+
+            <div class="feed-list">
+              <div class="feed-item">
+                <div class="feed-badge green"></div>
+                <div>
+                  <strong>New order #1042</strong>
+                  <small>3 minutes ago</small>
+                </div>
+              </div>
+              <div class="feed-item">
+                <div class="feed-badge blue"></div>
+                <div>
+                  <strong>Vendor payout processed</strong>
+                  <small>24 minutes ago</small>
+                </div>
+              </div>
+              <div class="feed-item">
+                <div class="feed-badge purple"></div>
+                <div>
+                  <strong>Customer review left</strong>
+                  <small>1 hour ago</small>
+                </div>
+              </div>
+              <div class="feed-item">
+                <div class="feed-badge orange"></div>
+                <div>
+                  <strong>Campaign performance updated</strong>
+                  <small>2 hours ago</small>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

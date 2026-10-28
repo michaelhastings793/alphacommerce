@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlphaCommerce | Vendor Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="vendor-page">
+    <div class="page-header">
+      <div class="brand-block compact">
+        <div class="brand-mark">A</div>
+        <div>
+          <p class="eyebrow">Marketplace</p>
+          <h1>AlphaCommerce</h1>
+        </div>
+      </div>
+
+      <nav class="page-nav">
+        <a href="index.html">Dashboard</a>
+        <a href="profile.html">Profile</a>
+        <a href="vendor-profile.html" class="active">Vendor</a>
+      </nav>
+    </div>
+
+    <main class="vendor-shell">
+      <section class="vendor-hero card-surface">
+        <div class="vendor-identity">
+          <img
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=200&q=80"
+            alt="Vendor storefront"
+          />
+          <div>
+            <p class="eyebrow">Featured seller</p>
+            <h2>Northstar Studio</h2>
+            <p class="muted">Premium smart accessories and everyday essentials.</p>
+          </div>
+        </div>
+
+        <div class="vendor-actions">
+          <button class="primary-btn">Follow</button>
+          <button class="ghost-btn">Message</button>
+        </div>
+      </section>
+
+      <section class="vendor-metrics">
+        <article class="mini-card card-surface">
+          <span class="eyebrow">Monthly sales</span>
+          <h3>$48.4k</h3>
+          <small>+18.2% this month</small>
+        </article>
+        <article class="mini-card card-surface">
+          <span class="eyebrow">Orders</span>
+          <h3>1,860</h3>
+          <small>Across 23 countries</small>
+        </article>
+        <article class="mini-card card-surface">
+          <span class="eyebrow">Satisfaction</span>
+          <h3>4.9/5</h3>
+          <small>1,348 customer reviews</small>
+        </article>
+      </section>
+
+      <section class="vendor-grid">
+        <article class="card-surface list-card">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Inventory</p>
+              <h3>Featured catalog</h3>
+            </div>
+          </div>
+
+          <div class="catalog-grid">
+            <div class="catalog-item">
+              <span class="mini-thumb one"></span>
+              <strong>Nova Headphones</strong>
+              <small>$289</small>
+            </div>
+            <div class="catalog-item">
+              <span class="mini-thumb two"></span>
+              <strong>Slate Bottle</strong>
+              <small>$49</small>
+            </div>
+            <div class="catalog-item">
+              <span class="mini-thumb three"></span>
+              <strong>Summit Backpack</strong>
+              <small>$139</small>
+            </div>
+            <div class="catalog-item">
+              <span class="mini-thumb four"></span>
+              <strong>Luma Lamp</strong>
+              <small>$119</small>
+            </div>
+          </div>
+        </article>
+
+        <article class="card-surface list-card">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Customer feedback</p>
+              <h3>Recent reviews</h3>
+            </div>
+          </div>
+
+          <ul class="review-list">
+            <li>
+              <div>
+                <strong>“Beautiful quality”</strong>
+                <small>By M. Carter • 2 days ago</small>
+              </div>
+              <span class="score">5.0</span>
+            </li>
+            <li>
+              <div>
+                <strong>“Fast delivery and premium packaging”</strong>
+                <small>By J. Park • 4 days ago</small>
+              </div>
+              <span class="score">4.9</span>
+            </li>
+            <li>
+              <div>
+                <strong>“Must-have everyday gadget”</strong>
+                <small>By A. Wells • 1 week ago</small>
+              </div>
+              <span class="score">5.0</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="app-footer">© <span id="year"></span> AlphaCommerce</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

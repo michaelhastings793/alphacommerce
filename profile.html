@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlphaCommerce | Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="profile-page">
+    <div class="page-header">
+      <div class="brand-block compact">
+        <div class="brand-mark">A</div>
+        <div>
+          <p class="eyebrow">Marketplace</p>
+          <h1>AlphaCommerce</h1>
+        </div>
+      </div>
+
+      <nav class="page-nav">
+        <a href="index.html">Dashboard</a>
+        <a href="profile.html" class="active">Profile</a>
+        <a href="vendor-profile.html">Vendor</a>
+      </nav>
+    </div>
+
+    <main class="profile-shell">
+      <aside class="profile-sidebar card-surface">
+        <div class="profile-avatar-lg">
+          <img
+            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80"
+            alt="Profile portrait"
+          />
+        </div>
+
+        <div class="profile-meta">
+          <h2>Amelia Stone</h2>
+          <p class="muted">Verified shopper</p>
+        </div>
+
+        <div class="profile-stats">
+          <div>
+            <strong>12.4k</strong>
+            <span>Followers</span>
+          </div>
+          <div>
+            <strong>387</strong>
+            <span>Reviews</span>
+          </div>
+          <div>
+            <strong>4.9</strong>
+            <span>Rating</span>
+          </div>
+        </div>
+
+        <div class="profile-info-block">
+          <p><strong>Location:</strong> Austin, TX</p>
+          <p><strong>Member since:</strong> March 2021</p>
+          <p><strong>Favorite categories:</strong> Tech, Wellness</p>
+        </div>
+      </aside>
+
+      <section class="profile-main">
+        <div class="card-surface hero-panel">
+          <div>
+            <p class="eyebrow">Customer profile</p>
+            <h3>Welcome back, Amelia</h3>
+          </div>
+          <button class="primary-btn">Edit profile</button>
+        </div>
+
+        <div class="insight-grid">
+          <article class="mini-card card-surface">
+            <span class="eyebrow">Orders</span>
+            <h3>24</h3>
+            <small>Placed this year</small>
+          </article>
+          <article class="mini-card card-surface">
+            <span class="eyebrow">Saved items</span>
+            <h3>128</h3>
+            <small>Across 18 wishlists</small>
+          </article>
+          <article class="mini-card card-surface">
+            <span class="eyebrow">Loyalty</span>
+            <h3>Gold</h3>
+            <small>Earned 2,460 points</small>
+          </article>
+        </div>
+
+        <div class="content-columns">
+          <article class="card-surface list-card">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Recent</p>
+                <h3>Recent orders</h3>
+              </div>
+            </div>
+
+            <ul class="order-list">
+              <li>
+                <div>
+                  <strong>Nova Headphones</strong>
+                  <small>Delivered • Sep 14</small>
+                </div>
+                <span class="status success">Completed</span>
+              </li>
+              <li>
+                <div>
+                  <strong>Slate Bottle</strong>
+                  <small>In transit • Sep 10</small>
+                </div>
+                <span class="status info">Tracking</span>
+              </li>
+              <li>
+                <div>
+                  <strong>Summit Backpack</strong>
+                  <small>Out for delivery • Sep 08</small>
+                </div>
+                <span class="status warning">Awaiting</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="card-surface list-card">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Favorites</p>
+                <h3>Saved products</h3>
+              </div>
+            </div>
+
+            <div class="saved-products">
+              <div class="saved-item">
+                <span class="mini-thumb one"></span>
+                <div>
+                  <strong>Smart Lamp</strong>
+                  <small>$129</small>
+                </div>
+              </div>
+              <div class="saved-item">
+                <span class="mini-thumb two"></span>
+                <div>
+                  <strong>Travel Tote</strong>
+                  <small>$89</small>
+                </div>
+              </div>
+              <div class="saved-item">
+                <span class="mini-thumb three"></span>
+                <div>
+                  <strong>Wellness Kit</strong>
+                  <small>$74</small>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">© <span id="year"></span> AlphaCommerce</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
